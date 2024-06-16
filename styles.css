@@ -1,0 +1,52 @@
+/*General Styles*/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  height: 100vh;
+  background-color: #2B807B;
+  text-align: center;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*Main container styles*/
+#container {
+  height: 220px;
+  width: 450px;
+  background-color: whitesmoke;
+  border: 5px solid black;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+/*Text styles*/
+#color-text {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+/*Button styles*/
+button {
+  font-size: 30px;
+  color: whitesmoke;
+  border-radius: 15px;
+  background-color: #008CBA;
+  margin: 15px;
+  padding: 10px 30px;
+  border: 3px solid #008CBA;
+  user-select: none;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  background-color: #05455A;
+}
